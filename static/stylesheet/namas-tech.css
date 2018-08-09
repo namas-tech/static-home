@@ -1,0 +1,33 @@
+#brand-image {
+    display: inline-block;
+    width: 20px;
+}
+
+.media-object {
+    width: 64px;
+}
+
+.podcast-object {
+    margin: 0 auto;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 480px) {
+    .podcast-object {
+        width: 100%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 720px) {
+    .podcast-object {
+        width: 75%;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 960px) {
+     .podcast-object {
+         width: 50%;
+     }
+}
